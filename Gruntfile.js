@@ -149,6 +149,6 @@ module.exports = function(grunt) {
 
   grunt.registerTask('default', ['clean', 'copy', 'jshint', 'concat', 'less', 'connect:dev', 'watch']);
 
-  grunt.registerTask('prod', ['clean', 'copy', 'jshint', 'concat', 'uglify', 'less', 'cssmin']);
+  grunt.registerTask('build', ['clean', 'copy', 'jshint', 'concat', 'uglify', 'less', 'cssmin']);
 
 };

@@ -4,7 +4,7 @@
   "description": "Must watch videos about Python",
   "main": "index.js",
   "scripts": {
-    "prod": "npm install && grunt prod",
+    "build": "npm install && grunt prod",
     "start": "grunt",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
