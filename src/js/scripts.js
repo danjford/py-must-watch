@@ -1,7 +1,3 @@
-$(document).ready(function() {
-    initEventHandlers();
-});
-
 /**
  * Setup all the custom event handling of buttons etc. required.
  */
@@ -29,6 +25,10 @@ function calculatePlayerHeight(aspectRatio) {
     var playerHeight = playerWidth * aspectRatio;
     return playerHeight;
 }
+
+$(document).ready(function() {
+    initEventHandlers();
+});
 
 $(window).resize(function() {
     var newPlayerHeight = calculatePlayerHeight();

@@ -1,0 +1,12 @@
+{
+  "browser": true,
+  "camelcase": true,
+  "curly": true,
+  "eqeqeq": true,
+  "latedef": true,
+  "newcap": true,
+  "noarg": true,
+  "quotmark": "single",
+  "trailing": true,
+  "smarttabs": true
+}
